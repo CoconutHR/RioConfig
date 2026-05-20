@@ -1,0 +1,67 @@
+# See the full configuration reference: https://rioterm.com/docs/config
+
+[fonts]
+size = 14
+
+[fonts.regular]
+family = "Cascadia Code"
+style = "default"
+
+[fonts.bold]
+family = "Cascadia Code"
+style = "default"
+
+[fonts.italic]
+family = "Cascadia Code"
+style = "default"
+
+[fonts.bold-italic]
+family = "Cascadia Code"
+style = "default"
+
+# 中文字符映射到 Sarasa Term SC
+[[fonts.symbol-map]]
+start = "2E80"
+end = "9FFF"
+font-family = "Sarasa Term SC"
+
+[[fonts.symbol-map]]
+start = "F900"
+end = "FAFF"
+font-family = "Sarasa Term SC"
+
+[[fonts.symbol-map]]
+start = "FE30"
+end = "FE4F"
+font-family = "Sarasa Term SC"
+
+[[fonts.symbol-map]]
+start = "FF00"
+end = "FFEF"
+font-family = "Sarasa Term SC"
+
+[[fonts.symbol-map]]
+start = "20000"
+end = "2FA1F"
+font-family = "Sarasa Term SC"
+
+# Emoji 映射
+[[fonts.symbol-map]]
+start = "1F000"
+end = "1FAFF"
+font-family = "Segoe UI Emoji"
+
+[[fonts.symbol-map]]
+start = "2600"
+end = "27BF"
+font-family = "Segoe UI Emoji"
+
+[[fonts.symbol-map]]
+start = "FE00"
+end = "FE0F"
+font-family = "Segoe UI Emoji"
+
+[[fonts.symbol-map]]
+start = "1F900"
+end = "1F9FF"
+font-family = "Segoe UI Emoji"
